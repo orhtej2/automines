@@ -1,7 +1,7 @@
 #include <Windows.h>
 
-#include "scoped_hdc.h"
-#include "scoped_gdiobject.h"
+#include "util/scoped_hdc.h"
+#include "util/scoped_gdiobject.h"
 
 #include "GamePresenter.h"
 #include "GameData.h"

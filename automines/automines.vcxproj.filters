@@ -21,27 +21,27 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GamePresenter.cpp">
+    <ClCompile Include="sources\GamePresenter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameData.h">
+    <ClInclude Include="include\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="include\GameData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GamePresenter.h">
+    <ClInclude Include="include\GamePresenter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="scoped_hdc.h">
+    <ClInclude Include="include\util\scoped_gdiobject.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="scoped_handle.h">
+    <ClInclude Include="include\util\scoped_handle.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="scoped_gdiobject.h">
+    <ClInclude Include="include\util\scoped_hdc.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
   </ItemGroup>
