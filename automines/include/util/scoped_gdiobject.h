@@ -68,6 +68,7 @@ namespace base {
 		typedef ScopedGDIObject<HFONT> ScopedHFONT;
 		typedef ScopedGDIObject<HICON> ScopedHICON;
 		typedef ScopedGDIObject<HBRUSH> ScopedBrush;
+		typedef ScopedGDIObject<HPEN> ScopedPen;
 
 	}  // namespace win
 }  // namespace base

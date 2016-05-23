@@ -122,12 +122,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="sources\GamePresenter.cpp" />
+    <ClCompile Include="sources\gui\board.cpp" />
+    <ClCompile Include="sources\gui\window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Game.h" />
-    <ClInclude Include="include\GameData.h" />
-    <ClInclude Include="include\GamePresenter.h" />
+    <ClInclude Include="include\gui\board.h" />
+    <ClInclude Include="include\gui\window.h" />
     <ClInclude Include="include\util\scoped_gdiobject.h" />
     <ClInclude Include="include\util\scoped_handle.h" />
     <ClInclude Include="include\util\scoped_hdc.h" />

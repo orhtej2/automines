@@ -16,23 +16,26 @@
     <Filter Include="Header Files\util">
       <UniqueIdentifier>{23578637-417d-450c-9704-8c514f4517ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{ed10dbc3-5b8b-4042-a002-aecbbb8d7b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{bb49a06c-b25a-4de8-897a-2216fc2791d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="sources\gui\board.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sources\GamePresenter.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="sources\gui\window.cpp">
+      <Filter>Source Files\gui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\GameData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\GamePresenter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\util\scoped_gdiobject.h">
@@ -43,6 +46,12 @@
     </ClInclude>
     <ClInclude Include="include\util\scoped_hdc.h">
       <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\board.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\window.h">
+      <Filter>Header Files\gui</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

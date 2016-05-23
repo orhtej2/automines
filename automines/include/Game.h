@@ -1,5 +1,10 @@
 #pragma once
 
-class Game {
+namespace logic {
+	class Game {
+	public:
+		class GameObserver {
 
-};
+		};
+	};
+}
