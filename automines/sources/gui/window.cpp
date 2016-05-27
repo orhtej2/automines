@@ -84,7 +84,8 @@ namespace gui {
 	}
 
 	bool Window::Initialize() {
-		board.reset(new Board(*this));
+		const RECT rect = { 10, 10, 200, 200 };
+		board.reset(new Board(hwnd_, rect));
 		return true;
 	}
 

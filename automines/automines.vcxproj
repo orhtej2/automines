@@ -126,7 +126,6 @@
     <ClCompile Include="sources\gui\window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Game.h" />
     <ClInclude Include="include\gui\board.h" />
     <ClInclude Include="include\gui\window.h" />
     <ClInclude Include="include\util\scoped_gdiobject.h" />

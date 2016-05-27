@@ -18,9 +18,8 @@ namespace {
 			gui::Board* board = getBoard(hwnd);
 			board->Paint(hDC);
 			EndPaint(hwnd, &paint);
-			break;
+			return 0;
 		}
-		return 0;
 		}
 		return DefWindowProc(hwnd, uMsg, wParam, lParam);
 	}

@@ -1,6 +1,8 @@
 #include <windows.h>
 
-#include "Game.h"
+#include "vld.h"
+
+#include "logic/Game.h"
 
 #include "gui/window.h"
 #include "gui/board.h"
@@ -11,8 +13,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	gui::Window::Register(hInstance);
 	gui::Board::Register(hInstance);
 
-	Game game;
 	gui::Window window(hInstance, nCmdShow);
+	logic::Game game;
 
 	MSG Msg;
 	// Step 3: The Message Loop
